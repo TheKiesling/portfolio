@@ -1,0 +1,21 @@
+.tech {
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.techs {
+    margin-top: 120px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.techs > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+

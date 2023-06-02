@@ -1,0 +1,14 @@
+.netflix {
+    height: 100%;
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.sliders{
+    margin-top: -150px;
+    max-width: 100%;
+}
+

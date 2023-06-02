@@ -1,0 +1,132 @@
+import React from 'react'
+import {
+  NavBar,
+  Technology,
+  Footer,
+} from '@components'
+import styles from './Technologies.module.css'
+
+const Technologies = () => (
+  <div className={`${styles.tech}`}>
+    <header>
+      <NavBar />
+    </header>
+    <div className={`${styles.techs}`}>
+      <div>
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+          title="HTML"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+          title="CSS"
+        />
+        <Technology
+          imgSrc="https://cms.rootstack.com/sites/default/files/inline-images/javascript%20logo.png"
+          title="JavaScript"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+          title="React"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+          title="Github"
+        />
+      </div>
+      <div>
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png"
+          title="ESLint"
+        />
+        <Technology
+          imgSrc="https://avatars.githubusercontent.com/u/22632046?s=280&v=4"
+          title="Storybook"
+        />
+        <Technology
+          imgSrc="https://vitest.dev/logo-shadow.svg"
+          title="Vitest"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+          title="Python"
+        />
+        <Technology
+          imgSrc="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+          title="Java"
+        />
+      </div>
+      <div>
+        <Technology
+          imgSrc="https://desarrolloweb.com/storage/tag_images/actual/BzOL16MEqsKOe0VThjF6FXPBi0uyK16lkTety9Wz.png"
+          title="C#"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+          title="C++"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
+          title="Kotlin"
+        />
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lisp_logo.svg/1200px-Lisp_logo.svg.png"
+          title="Lisp"
+        />
+        <Technology
+          imgSrc="https://avatars.githubusercontent.com/u/874086?s=280&v=4"
+          title="JUnit"
+        />
+      </div>
+      <div>
+        <Technology
+          imgSrc="https://download.logo.wine/logo/Raspberry_Pi/Raspberry_Pi-Logo.wine.png"
+          title="Raspberry"
+        />
+        <Technology
+          imgSrc="https://assets.nvidiagrid.net/ngc/logos/Cuda.png"
+          title="CUDA"
+        />
+        <Technology
+          imgSrc="https://cdn-icons-png.flaticon.com/512/5968/5968332.png"
+          title="PHP"
+        />
+        <Technology
+          imgSrc="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png"
+          title="MySQL"
+        />
+        <Technology
+          imgSrc="https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png"
+          title="MariaDB"
+        />
+      </div>
+      <div>
+        <Technology
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png"
+          title="Postgresql"
+        />
+        <Technology
+          imgSrc="https://cdn.freebiesupply.com/logos/large/2x/neo4j-logo-png-transparent.png"
+          title="Neo4j"
+        />
+        <Technology
+          imgSrc="https://www.gstatic.com/devrel-devsite/prod/v4adef427db21a4cd79f489fce8da23c25ef3f53705a17ddcb0611ee166b2e610/firebase/images/touchicon-180.png"
+          title="Firebase"
+        />
+        <Technology
+          imgSrc="https://avatars.githubusercontent.com/u/52722434?v=4&s=400"
+          title="Coil"
+        />
+        <Technology
+          imgSrc="https://logos-world.net/wp-content/uploads/2020/09/Oracle-Symbol.png"
+          title="Oracle"
+        />
+      </div>
+    </div>
+    <footer>
+      <Footer />
+    </footer>
+  </div>
+)
+
+export default Technologies

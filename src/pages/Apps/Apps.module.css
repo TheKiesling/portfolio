@@ -1,0 +1,15 @@
+.apps{
+    height: 100vh;
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    color: #fff;
+}
+
+.sliders{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+

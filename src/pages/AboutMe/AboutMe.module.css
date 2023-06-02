@@ -1,0 +1,106 @@
+.about{
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    color: #fff;
+
+}
+
+.me{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.me h1{
+    font-size: 50px;
+}
+
+.me hr {
+    border: none;
+    margin-top: -15px;
+    border-top: 1px solid #ccc;
+    cursor: default;
+    width: 100%;
+}
+
+.more{
+    display: flex;
+    gap: 25px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.second span{
+    background-color: #666;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 15px;    
+}
+
+.second p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #CCCCA9;
+}
+
+.lang{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.education{
+    width: 50%;
+}
+
+.educationImg{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+.educationImg div{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.educationImg div img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.educationText{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.educationText span{
+    margin-top: -20px;
+}
+
